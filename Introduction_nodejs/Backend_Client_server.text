@@ -1,0 +1,14 @@
+What is Backend & Client Server Architecture?
+What is server (backend)?
+A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network. It handles requests from clients, processes them, and sends back the appropriate responses.
+What is client (frontend)?
+A client is a computer or software that requests services, resources, or data from a server over a network. It interacts with the server by sending requests and receiving responses, typically through a web browser, application, or other interface.
+
+nodejs - create HTTPS server
+js or ts code runs outside browser via nodejs.
+vsCodeLiveServer - runs on nodejs
+visit vsCodeLiveServer extension github-
+    lib/liveserver/index.js
+look for -> http = require('http); where require fuction is used to include module require('module_name'),where http module is a built in module in nodejs, which allows to create HTTP server and client and provides functionality to handle HTTP request and response.require('http') is stored in variable http.
+look for -> server = http.createServer(app); this is used to create a server.
+look for -> server.listen(port, host);
